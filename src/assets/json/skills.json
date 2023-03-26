@@ -1,0 +1,42 @@
+[
+    {
+        "alt": "Adobe Illustrator",
+        "url":"/app/ai.svg"
+    },
+    {
+        "alt": "Adobe Photoshop",
+        "url":"/app/ps.svg"
+    },
+    {
+        "alt": "Magix Vegas",
+        "url":"/app/mv.svg"
+    },
+    {
+        "alt": "HTML",
+        "url":"/app/html.svg"
+    },
+    {
+        "alt": "CSS",
+        "url":"/app/css.svg"
+    },
+    {
+        "alt": "SASS",
+        "url":"/app/sass.svg"
+    },
+    {
+        "alt": "JavaScript",
+        "url":"/app/js.svg"
+    },
+    {
+        "alt": "ReactJS",
+        "url":"/app/react.svg"
+    },
+    {
+        "alt": "C#",
+        "url":"/app/csharp.svg"
+    },
+    {
+        "alt": "Unity",
+        "url":"/app/unity.svg"
+    }
+]

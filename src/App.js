@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import HeaderPers from './components/Header';
-import './App.css';
+import Project from './components/Project';
+import Skills from './components/Skills';
+import './scss/index.scss'
+
 
 function App() {
   return (
-    <div className="App">
-      <HeaderPers></HeaderPers>
-    </div>
+    <>
+    <HeaderPers></HeaderPers>
+    <section>
+      <Project></Project>
+      <Skills></Skills>
+    </section>
+    </>
   );
 }
 
