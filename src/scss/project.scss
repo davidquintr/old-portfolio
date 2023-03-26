@@ -9,7 +9,6 @@
 
 .project{
     display: flex;
-    margin: 0px 50px 0px 50px;
     border-radius: 0;
     padding: 50px 10% 50px 10%;
     background-color: $blue-main;
@@ -33,11 +32,16 @@
 }
 
 .skills{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-around;
     border-radius: 0px 0px 5px 5px;
     margin: 0px 50px 0px 50px;
     border: 2px solid $blue-main;
 
     &-app{
-        height: 25px;
+        height: 64px;
+        padding: 10px;
     }
 }

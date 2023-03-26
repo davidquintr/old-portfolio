@@ -8,7 +8,7 @@ const Skills = () => {
         <article className="article skills">
             {
                 dataSkills.map(element =>(
-                    <img src={`${process.env.PUBLIC_URL + element.url}`} key={} alt={element.alt} className="skills-app"></img>
+                    <img src={`${process.env.PUBLIC_URL + element.url}`} key={element.key} alt={element.alt.replace(' ','').toLocaleLowerCase()} title={element.alt} className="skills-app"></img>
                 ))
             }
         </article>

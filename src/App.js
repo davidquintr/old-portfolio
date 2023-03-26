@@ -12,6 +12,7 @@ function App() {
     <section>
       <Project></Project>
       <Skills></Skills>
+      <hr className='divider-round'></hr>
     </section>
     </>
   );
