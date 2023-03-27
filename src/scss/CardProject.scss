@@ -18,6 +18,13 @@
             margin: 0;
         }
     }
+
+    &-buttons{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        margin: 10px;
+    }
 }
 
 .mini-skills{

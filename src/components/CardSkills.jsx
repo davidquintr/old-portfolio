@@ -3,7 +3,8 @@ import data from '../assets/json/skills.json';
 
 const CardSkills = (props) => {
     
-    let skills = props.skills.split(' ')
+    let skills = props.skills.includes(' ') ? props.skills.split(' ') : [props.skills];
+    skills = skills.slice(0, 1);
 
     const getData = (skill) => {
         let found;

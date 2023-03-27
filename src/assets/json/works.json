@@ -1,0 +1,17 @@
+[
+    {
+        "img": "/img/taskitty.png",
+        "title": "TasKitty",
+        "details": "Desarrollado para Desarrollo de Aplicaciones Móviles I en el 2S-2022, realizado con Kotlin en Android Studio",
+        "tech": "html css",
+        "urlCode": "https://github.com/VarEros/TasKitty",
+        "urlView": ""
+    },{
+        "img": "/img/blog.png",
+        "title": "Blog - JavaScript / JQuery",
+        "details": "Desarrollado para Desarrollo de Aplicaciones Web en el 2S-2022, Realizado con HTML y CSS",
+        "tech": "html css",
+        "urlCode": "https://github.com/VarEros/TasKitty",
+        "urlView": ""
+    }
+]

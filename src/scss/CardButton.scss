@@ -1,0 +1,27 @@
+@import './_basics';
+
+.item{
+    text-decoration: none;
+    width: 200px;
+
+    &-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        background-color: $darkblue-main;
+        border-radius: 10px;
+
+        &-img{
+            width: 32px;
+        }
+
+        &-text{
+            color: $color-main;
+            font-weight: 400;
+            margin: 15px 0px 15px 0px;
+        }
+    }
+
+}

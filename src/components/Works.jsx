@@ -7,10 +7,6 @@ const Works = () => {
         <article className="article works">
             <div className="works-elements">
                 <CardProject></CardProject>
-                <CardProject></CardProject>
-                <CardProject></CardProject>
-                <CardProject></CardProject>
-                <CardProject></CardProject>
             </div>
         </article>
     )
