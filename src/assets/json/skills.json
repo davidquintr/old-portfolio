@@ -1,41 +1,51 @@
 [
     {
+        "dim": "ai",
         "alt": "Adobe Illustrator",
         "url":"/app/ai.svg"
     },
     {
+        "dim": "ps",
         "alt": "Adobe Photoshop",
         "url":"/app/ps.svg"
     },
     {
+        "dim": "mv",
         "alt": "Magix Vegas",
         "url":"/app/mv.svg"
     },
     {
+        "dim": "html",
         "alt": "HTML",
         "url":"/app/html.svg"
     },
     {
+        "dim": "css",
         "alt": "CSS",
         "url":"/app/css.svg"
     },
     {
+        "dim": "sass",
         "alt": "SASS",
         "url":"/app/sass.svg"
     },
     {
+        "dim": "js",
         "alt": "JavaScript",
         "url":"/app/js.svg"
     },
     {
+        "dim": "rjs",
         "alt": "ReactJS",
         "url":"/app/react.svg"
     },
     {
+        "dim": "cs",
         "alt": "C#",
         "url":"/app/csharp.svg"
     },
     {
+        "dim": "un",
         "alt": "Unity",
         "url":"/app/unity.svg"
     }

@@ -6,7 +6,7 @@ import deimg from '../assets/img/deibi.png';
 
 const Project = () => {
     return(
-        <article className="article project margin-default">
+        <article className="article project internal-padef">
             <img src={deimg} alt={data.author}className="project-img"></img>
             <div>
                 <h2 className="project-header">{data.author}</h2>

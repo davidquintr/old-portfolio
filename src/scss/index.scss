@@ -4,11 +4,22 @@ body{
     background-color: $color-gray;
 }
 
-.divider-round{
-    @extend .margin-default;
-    border-top: 3px solid #bbb;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: none;
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    &-round{
+        margin-top: 5px;
+        width: 100%;
+        border-top: 5px solid $darkblue-main;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+
+    &-text{
+        font-family: 'Poppins', sans-serif;
+        color: $darkblue-main;
+    }
 }

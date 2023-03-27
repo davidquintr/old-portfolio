@@ -3,19 +3,17 @@
 .article{
     border-radius: 5px;    
     background-color: $color-main;
-    margin: 10px 50px 10px 50px; 
-    padding: 10px 10% 10px 10%;
 }
 
 .project{
     display: flex;
     border-radius: 0;
-    padding: 50px 10% 50px 10%;
     background-color: $blue-main;
     align-items: center;
     gap: 25px;
     
     &-header{
+        font-family: 'Poppins', sans-serif;
         font-size: xx-large;
         color: $color-main;
         padding: 0;
@@ -23,6 +21,8 @@
     }
 
     &-details{
+        font-family: 'Poppins', sans-serif;
+        font-stretch:expanded;
         color: $color-main;
     }
 
@@ -37,11 +37,23 @@
     flex-wrap: wrap;
     justify-content:space-around;
     border-radius: 0px 0px 5px 5px;
-    margin: 0px 50px 0px 50px;
     border: 2px solid $blue-main;
 
     &-app{
         height: 64px;
         padding: 10px;
+    }
+}
+
+.works{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+
+    &-elements{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        gap: 25px;
     }
 }

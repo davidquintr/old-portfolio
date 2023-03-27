@@ -1,0 +1,36 @@
+@import './_basics';
+
+.card{
+    background-color: $color-main;
+    border: 3px solid $blue-main;
+    border-radius: 10px;
+    width: calc(100% / 2.7);
+
+    &-image{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    &-details{
+        padding: 10px;
+
+        &-title{
+            margin: 0;
+        }
+    }
+}
+
+.mini-skills{
+    display: flex;
+    margin-top: -4px;
+    padding: 5px;
+    background-color: $blue-main;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    &-img{
+        width: 36px;
+    }
+
+}
