@@ -4,7 +4,7 @@
     background-color: $color-main;
     border: 3px solid $blue-main;
     border-radius: 10px;
-    width: calc(100% / 2.7);
+    width: calc(100% / 2.4);
 
     &-image{
         width: 100%;
@@ -13,8 +13,11 @@
 
     &-details{
         padding: 10px;
+        height: 140px;
 
         &-title{
+            color: $darkblue-main;
+            font-size: x-large;
             margin: 0;
         }
     }

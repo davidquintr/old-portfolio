@@ -13,7 +13,7 @@ const CardProject = () =>{
                 <div className='card'>
                 <img className='card-image' src={`${process.env.PUBLIC_URL + element.img}`} alt={element.title} ></img>
                 <div className='card-tech'>
-                    <CardSkills skills="html"></CardSkills>
+                    <CardSkills skills={element.tech}></CardSkills>
                 </div>
                 <div className='card-details'>
                     <h3 className='card-details-title'>{element.title}</h3>
