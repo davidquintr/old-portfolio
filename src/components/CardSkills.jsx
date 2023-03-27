@@ -7,7 +7,7 @@ const CardSkills = (props) => {
 
     const getData = (skill) => {
         let found;
-        data.map(element => {
+        data.forEach(element => {
             if (element.dim === skill) {
                 found = element;
                 return

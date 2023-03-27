@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import '../scss/_darkMode.scss';
 import '../scss/project.scss';
-import project from '../assets/json/project.json'
 import dataSkills from '../assets/json/skills.json'
+import { ThemeContext } from './ThemeContext';
 
 const Skills = () => {
+    const { darkMode} = useContext(ThemeContext);
     return(
-        <article className="article skills">
+        <article className={"article skills" + (darkMode ? " darkmode-skills" : "")}>
             {
                 dataSkills.map(element =>(
                     !element.show && (

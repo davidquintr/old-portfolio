@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from './ThemeContext';
 
-function ViewMode(){
-    const [isDarkMode, setIsDarkMode] = useState(false);
+function Header() {
+  const { darkMode, toggleDarkMode } = useContext(ThemeContext);
 
-    const toggleDarkMode = () =>{
-        setIsDarkMode(!isDarkMode);
-    };
-
-    return(
-        <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-            <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
-      </div>
-    )
-
+  return (
+      <button className={darkMode ? "darkmode" : ""} onClick={toggleDarkMode}>{darkMode ? "Modo oscuro" : "Modo claro"}</button>
+  );
 }
+
+export default Header;

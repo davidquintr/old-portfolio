@@ -3,7 +3,7 @@
     "img": "/img/taskitty.png",
     "title": "TasKitty",
     "details": "Desarrollado para Desarrollo de Aplicaciones Móviles I en el 2S-2022, realizado con Kotlin en Android Studio.",
-    "tech": "kt",
+    "tech": "kt ps ai",
     "urlCode": "https://github.com/VarEros/TasKitty",
     "urlView": ""
   },
@@ -43,7 +43,7 @@
     "img": "/img/classblock.png",
     "title": "ClassBlock",
     "details": "Desarrollado para Programación Orientada a Objetos 2S-2021, Un sistema de pseudo-administración de tareas. Realizado con Java.",
-    "tech": "java mssql",
+    "tech": "java mssql ps",
     "urlCode": "https://github.com/davidquintr/ClassBlock-APP",
     "urlView": ""
   }

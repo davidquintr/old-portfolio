@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$white: #fff;
+$morelightblue-main: #caf0f8;
+$lightblue-main: #90e0ef;
+$blue-main: #00b4d8;
+$darkblue-main: #0077b6;
+$moredarkblue-main: #03045e;
+
+$darkmode-main: #18191a;
+$darkmode-light: #242526;
+$darkmodeblack-main: #232323;
+$darkmodegray-main: #3A3B3C;
+
+.darkmode{
+    &-body{
+        background-color: $darkmode-main;
+    }
+
+    &-article{
+        background-color: $darkmode-light;
+    }
+
+    &-skills{
+        background-color: $darkmode-light;
+        border-color: $darkblue-main;
+
+        img{
+            filter: invert(1);
+        }
+    }
+
+    &-card{
+        background-color: $darkmodegray-main;
+//        border-color: $darkblue-main !important;
+
+        &-details-title{
+            color: $lightblue-main !important;
+        }
+
+        &-details-desc{
+            color: $white;
+        }
+
+        &-tech{
+            div{
+                border-top: 3px solid $darkblue-main;
+                border-bottom: 3px solid $darkblue-main;
+                background-color: $darkmode-main;
+                
+                img{
+                    filter: invert(1);
+                }
+
+            }
+        }
+
+    }
+    
+    &-projects{
+        background-color: $darkblue-main;
+    }
+
+    &-divider{
+        h2{
+            color: $blue-main !important;
+        }
+        span{
+            border-color: $blue-main;
+        }
+    }
+}
