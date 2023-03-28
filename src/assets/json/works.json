@@ -49,10 +49,19 @@
   }
   ,
   {
+    "img": "/img/mitiendita.png",
+    "title": "Mi Tiendita",
+    "details": "Desarrollado para Metodología de la Programación 1S-2021, Un sistema de gestión de inventarios y facturación. Realizado con C/C++",
+    "tech": "cpp",
+    "urlCode": "https://github.com/davidquintr/brain-3d",
+    "urlView": ""
+  }
+  ,
+  {
     "img": "/img/brainview.png",
     "title": "BrainView - 3D",
     "details": "Creado como comisión - Vista básica de limitados puntos del cerebro, internos y externos. Realizado con Unity bajo C#, con la ayuda de herramientas multimedia.",
-    "tech": "unity cs ai ps",
+    "tech": "unity cs ai ps cpp mysql",
     "urlCode": "https://github.com/davidquintr/brain-3d",
     "urlView": ""
   }

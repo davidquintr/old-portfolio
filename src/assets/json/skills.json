@@ -84,5 +84,11 @@
         "alt": "Java",
         "url":"/app/java.svg",
         "show": "false"
+    },
+    {
+        "dim": "cpp",
+        "alt": "C++",
+        "url":"/app/cpp.svg",
+        "show": "false"
     }
 ]

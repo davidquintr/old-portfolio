@@ -13,7 +13,7 @@ const CardProject = () =>{
         <>
         {
             works.map((element,index) =>(
-                <div className={'card' + (darkMode ? " darkmode-card" : "")}>
+                <div className={'card' + (darkMode ? " darkmode-card" : "")} key={index}>
                     <img className='card-image' src={`${process.env.PUBLIC_URL + element.img}`} alt={element.title} ></img>
                     <div className={'card-tech' + (darkMode ? " darkmode-card-tech" : "")}>
                         <CardSkills skills={element.tech}></CardSkills>

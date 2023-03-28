@@ -6,12 +6,12 @@ import CardProject from "./CardProject";
 
 const Works = () => {
     const { darkMode} = useContext(ThemeContext);
-    return(
+    return(        
         <article className={"article works" + (darkMode ? " darkmode-article" : "")}>
             <div className="works-elements">
                 <CardProject></CardProject>
             </div>
-        </article>
+        </article>    
     )
 }
 export default Works;

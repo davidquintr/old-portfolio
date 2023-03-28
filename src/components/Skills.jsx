@@ -9,9 +9,9 @@ const Skills = () => {
     return(
         <article className={"article skills" + (darkMode ? " darkmode-skills" : "")}>
             {
-                dataSkills.map(element =>(
+                dataSkills.map((element,index) =>(
                     !element.show && (
-                        <img src={`${process.env.PUBLIC_URL + element.url}`} key={element.key} alt={element.alt.replace(' ','').toLocaleLowerCase()} title={element.alt} className="skills-app"></img>
+                        <img src={`${process.env.PUBLIC_URL + element.url}`} key={index} alt={element.alt.replace(' ','').toLocaleLowerCase()} title={element.alt} className="skills-app"></img>
                     )
                 ))
             }

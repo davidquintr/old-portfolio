@@ -19,9 +19,9 @@ function App() {
           <Project></Project>
           <Skills></Skills>
           <div className={'divider' + (darkMode ? " darkmode-divider" : "")}>
-            <h2 className='divider-text'>Proyectos</h2>
-            <span className='divider-round'></span>
-          </div>
+                <h2 className='divider-text'>Proyectos</h2>
+                <span className='divider-round'></span>
+            </div>
           <Works></Works>
         </section>
       </div>

@@ -4,26 +4,28 @@
 $white: #fff;
 $morelightblue-main: #caf0f8;
 $lightblue-main: #90e0ef;
-$blue-main: #00b4d8;
-$darkblue-main: #0077b6;
-$moredarkblue-main: #03045e;
+$blue-main: #7192ff;
+$darkblue-main: #2e4fab;
+$morelessdarkblue-main: #203777;
+$moredarkblue-main: #2e4fab;
 
 $darkmode-main: #18191a;
 $darkmode-light: #242526;
 $darkmodeblack-main: #232323;
 $darkmodegray-main: #3A3B3C;
+$darktransparent-main: #151516c2;
 
 .darkmode{
     &-body{
-        background-color: $darkmode-main;
+        background-color: $darkmode-main !important;
     }
 
     &-article{
-        background-color: $darkmode-light;
+        background-color: $darkmode-light !important;
     }
 
     &-skills{
-        background-color: $darkmode-light;
+        background-color: $darkmode-light !important;
         border-color: $darkblue-main;
 
         img{
@@ -60,6 +62,13 @@ $darkmodegray-main: #3A3B3C;
     
     &-projects{
         background-color: $darkblue-main;
+        border-color: $darkblue-main;
+
+        div{
+            h2, p{
+                color: $white;
+            }
+        }
     }
 
     &-divider{
@@ -69,5 +78,43 @@ $darkmodegray-main: #3A3B3C;
         span{
             border-color: $blue-main;
         }
+    }
+
+    &-header{
+        background-color: $morelessdarkblue-main !important;
+        border-bottom: 2px solid $morelessdarkblue-main !important;
+
+    }
+
+    &-button-altern{
+        background-color: $darkblue-main;
+        border: 2px solid $darkblue-main;
+
+        &:hover{
+            background-color: $morelessdarkblue-main;
+        }
+    }
+
+    &-button{
+        background-color:  $darkblue-main !important;
+
+        &:hover{
+            background-color:  $blue-main !important;
+        }
+    }
+    
+    &-header-refs{
+        &-elements{
+
+            a{
+                color: $white !important;
+            }
+
+        }
+    }
+
+    &-header-transparent{
+        background-color: $darktransparent-main !important;
+        border-bottom: 2px solid $darktransparent-main !important;
     }
 }

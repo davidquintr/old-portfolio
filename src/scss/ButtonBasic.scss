@@ -1,0 +1,23 @@
+@import './_basics';
+
+.button-altern{
+    width: 57px;
+    margin: 5px;
+    background-color: $blue-main;
+    border: 2px solid $blue-main;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    transition: background-color 0.2s;
+
+    &-img{
+        width: 20px;
+        filter: invert(1);
+    }
+
+    &:hover{
+        background-color: $lightlightblue-main;
+    }
+}
