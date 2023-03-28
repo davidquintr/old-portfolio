@@ -19,7 +19,12 @@ $graytransparent-main: #0076b6a4;
     &-ident{
         margin: 15px;
         #ident-image{
-            width: 100px;
+            width: 75px;
+               
+            @media (max-width: 450px) {
+                width: 32px;
+            }
+
         }
     }
 

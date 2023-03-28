@@ -26,7 +26,7 @@
   {
     "img": "/img/eysmono.png",
     "title": "SistemaEyS - Monodevelop",
-    "details": "Desarrollado para Programación de Aplicaciones 1S-2022, Un sistema de control de empleados, junto a sus entradas y salidas. Realizado con C# y GTK# como biblioteca gráfica, de la mano del IDE Monodevelop en Ubuntu 22.04.",
+    "details": "Desarrollado para Programación de Aplicaciones 1S-2022, Sistema de control de empleados en C# y GTK#.",
     "tech": "cs gtk mysql",
     "urlCode": "https://github.com/davidquintr/SistemaEyS-Mono",
     "urlView": ""
@@ -34,7 +34,7 @@
   {
     "img": "/img/eysvb.png",
     "title": "SistemaEyS - Visual Basic",
-    "details": "Desarrollado para Diseño de Bases de Datos 1S-2022, Un sistema de control de empleados, junto a sus entradas y salidas. Realizado con Visual Basic .NET.",
+    "details": "Desarrollado para Diseño de Bases de Datos 1S-2022, Sistema de control de empleados en Visual Basic .NET",
     "tech": "vbnet mssql",
     "urlCode": "https://github.com/davidquintr/SistemaEyS",
     "urlView": ""

@@ -13,6 +13,15 @@ $moredarkblue-main: #03045e;
 
 .limits-default{
     width: 70%;
+   
+    @media (max-width: 940px) {
+        width: 85%;
+    }
+
+    @media (max-width: 840px) {
+        width: 95%;
+    }
+
 }
 
 .internal-padef{
@@ -25,4 +34,6 @@ $moredarkblue-main: #03045e;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+
 }

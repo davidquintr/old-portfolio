@@ -7,7 +7,7 @@
 
     const Header = () => {
         const { darkMode} = useContext(ThemeContext);
-        const [headerTransparent, setHeaderTransparent] = useState(true);
+        const [headerTransparent, setHeaderTransparent] = useState(false);
 
         const headerClass = () => {
             let className = "";
