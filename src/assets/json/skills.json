@@ -96,5 +96,11 @@
         "alt": "EmailJS",
         "url":"/app/emailjs.svg",
         "show": "false"
+    },
+    {
+        "dim": "php",
+        "alt": "PHP",
+        "url":"/app/php.svg",
+        "show": "true"
     }
 ]
