@@ -90,5 +90,11 @@
         "alt": "C++",
         "url":"/app/cpp.svg",
         "show": "false"
+    },
+    {
+        "dim": "emailjs",
+        "alt": "EmailJS",
+        "url":"/app/emailjs.svg",
+        "show": "false"
     }
 ]

@@ -4,9 +4,13 @@ import Project from './components/Project';
 import Skills from './components/Skills';
 import './scss/index.scss'
 import './scss/_darkMode.scss'
+import './scss/footer.scss'
 import Works from './components/Works';
+import Divider from './components/Divider';
 import React, { useContext } from 'react';
 import { ThemeContext} from './components/ThemeContext';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const { darkMode} = useContext(ThemeContext);
@@ -18,17 +22,13 @@ function App() {
         <section className='limits-default'>
           <Project></Project>
           <Skills></Skills>
-          <div className={'divider' + (darkMode ? " darkmode-divider" : "")}>
-                <h2 className='divider-text'>Proyectos</h2>
-                <span className='divider-round'></span>
-            </div>
+          <Divider name="Proyectos" id="projects"></Divider>
           <Works></Works>
-          <div className={'divider' + (darkMode ? " darkmode-divider" : "")}>
-                <h2 className='divider-text'>Proyectos</h2>
-                <span className='divider-round'></span>
-            </div>
+          <Divider name="Contacto" id="contact"></Divider>
+          <Contact></Contact>
         </section>
       </div>
+      <Footer></Footer>
     </>
   );
 }

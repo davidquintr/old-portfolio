@@ -14,6 +14,7 @@ $darkmode-light: #242526;
 $darkmodeblack-main: #232323;
 $darkmodegray-main: #3A3B3C;
 $darktransparent-main: #151516c2;
+$semi-blue: rgba(0, 34, 254, 0.101);
 
 .darkmode{
     &-body{
@@ -116,5 +117,60 @@ $darktransparent-main: #151516c2;
     &-header-transparent{
         background-color: $darktransparent-main !important;
         border-bottom: 2px solid $darktransparent-main !important;
+    }
+
+    &-contact-header{
+
+        h3{
+            color: $blue-main !important;
+        }
+
+        p{
+            color: $white;
+        }
+
+    }
+
+    &-contain-contact{
+        p{
+            color: $white;
+        }
+    }
+
+    &-contain-social{
+        background-color: $darkblue-main !important;
+        border-color: $darkblue-main !important;
+
+        &:hover{
+            background-color: $morelessdarkblue-main !important;
+        }
+    }
+
+    &-input-contact{
+        background-color: $darkmodegray-main;
+        color: $white;
+
+        &:focus,&:active{
+            outline-color: $blue-main !important;
+            background-color: $semi-blue !important;
+        }
+    }
+
+    &-element-button{
+        background-color: $darkblue-main !important;
+
+        &:hover{
+            background-color: $morelessdarkblue-main !important;
+        }
+    }
+
+    &-contain-alert{
+        background-color: $semi-blue !important;
+        border: 3px solid $darkblue-main !important;
+    }
+
+    &-footer{
+        background-color: $darkblue-main !important;
+
     }
 }

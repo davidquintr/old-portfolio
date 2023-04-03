@@ -1,0 +1,13 @@
+@import './_basics';
+
+.footer{
+    background-color: $darkblue-main;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+    &-text{
+        color: $color-main;
+        margin: 0;
+        text-align: center;
+    }
+}

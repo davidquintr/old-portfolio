@@ -1,0 +1,50 @@
+@import './_basics';
+
+.contain-alert{
+    padding: 5px;
+    background-color: $semi-blue;
+    backdrop-filter: blur(20px) ;
+    border: 3px solid $blue-main;
+    display: flex;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.203);
+    font-family: 'Poppins';
+    font-size: large;
+    font-weight: 300;
+    gap: 10px;
+    padding: 10px;
+    //transform: translateY(100px);
+
+    &-img{
+        width: 32px;
+    }
+    
+    &-text{
+        color: $color-main;
+        margin: 0;
+    }
+}
+
+.contain-alert.action{
+    animation: aparecer 2s ease;
+}
+
+.contain-alert.nothing{
+    transform: translateY(100px);
+
+}
+
+@keyframes aparecer{
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -37,12 +37,12 @@
         return(
             <header id={"header"} className={headerClass()}>
                 <div id="header-ident">
-                    <img src={icon} id="ident-image" alt={data.brand_img}></img>
+                    <a href='#'><img src={icon} id="ident-image" alt={data.brand_img}></img></a>
                 </div>
                 <div id="header-refs" className={darkMode ? "darkmode-header-refs" : ""}>
                     <ul id="refs-elements" className={darkMode ? "darkmode-header-refs-elements" : ""}>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                     <ViewModes></ViewModes>
                 </div>
