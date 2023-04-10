@@ -17,10 +17,8 @@ const [response, setResponse] = useState(null);
 
     emailjs.sendForm('service_zmht5zq', 'template_bq67pfa', form.current, 'aqJFVCZrRMTDkeRGM')
       .then((result) => {
-          console.log(result.text);
           setResponse(true)
       }, (error) => {
-          console.log(error.text);
           setResponse(false)
       });
       setTimeout(() => {

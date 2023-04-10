@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState} from 'react';
 import { ThemeContext} from './ThemeContext';
+import '../scss/_darkMode.scss';
 
 
 const Header = () => {
