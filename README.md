@@ -20,4 +20,4 @@ npm run build
 ```
 
 # View in Explorer
-Right here [Portafolio - DavidQuint](http://localhost:3000).
+Right here [Portafolio - DavidQuint](https://davidquintr.github.io/portafolio/).
