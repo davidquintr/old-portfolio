@@ -46,12 +46,14 @@ const [response, setResponse] = useState(null);
               type="text"
               placeholder="Nombre y Apellido"
               name="user_name"
+              required
             ></input>
             <input
               className={"input-contact number " + (darkMode ? "darkmode-input-contact" : "")}
               type="text"
               placeholder="Numero"
               name="user_number"
+              required
             ></input>
           </div>
           <div className="contact-elements-column ">
@@ -60,12 +62,14 @@ const [response, setResponse] = useState(null);
               type="text"
               placeholder="Email"
               name="user_email"
+              required
             ></input>
             <textarea
               className={"input-contact subject " + (darkMode ? "darkmode-input-contact" : "")}
               placeholder="Asunto"
               name="message"
               rows="4"
+              required
             ></textarea>
             <button type="submit" className={"element-button " + (darkMode ? "darkmode-element-button" : "")}>Enviar mensaje</button>
           </div>
