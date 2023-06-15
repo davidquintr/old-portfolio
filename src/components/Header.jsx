@@ -36,15 +36,18 @@
 
         return(
             <header id={"header"} className={headerClass()}>
-                <div id="header-ident">
-                    <a href='#'><img src={icon} id="ident-image" alt={data.brand_img}></img></a>
+                <div className='header-alert'>
+                    <p className='alert-element'>¡Este portafolio está obsoleto! Puedes ver el <a href='https://davidquintr.github.io/portfolio/'>Nuevo Portafolio</a> justo acá</p>
                 </div>
-                <div id="header-refs" className={darkMode ? "darkmode-header-refs" : ""}>
-                    <ul id="refs-elements" className={darkMode ? "darkmode-header-refs-elements" : ""}>
-                        <li><a href="#projects">Proyectos</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                    </ul>
-                    <ViewModes></ViewModes>
+                <div className='header-content'>
+                    <div id="header-refs" className={darkMode ? "darkmode-header-refs" : ""}>
+                        <a href='#'><img src={icon} id="header-ident" alt={data.brand_img}></img></a>
+                        <ul id="refs-elements" className={darkMode ? "darkmode-header-refs-elements" : ""}>
+                            <li><a href="#projects">Proyectos</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                        </ul>
+                        <ViewModes></ViewModes>
+                    </div>
                 </div>
             </header>
         )

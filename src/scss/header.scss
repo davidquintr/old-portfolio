@@ -5,6 +5,7 @@ $graytransparent-main: #ffffffa4;
 #header{
     display: flex;
     position:sticky;
+    flex-direction: column;
     top: 0;
     z-index: 10;
     background-color: $lightlightblue-main;
@@ -17,6 +18,7 @@ $graytransparent-main: #ffffffa4;
 
 
     &-ident{
+        width: 48px;
         margin: 5px;
         #ident-image{
             width: 65px;
@@ -28,6 +30,8 @@ $graytransparent-main: #ffffffa4;
     }
 
     &-refs{
+        width: 100%;
+        justify-content: space-around;
         display: flex;
         gap: 15px;
 
@@ -56,4 +60,23 @@ $graytransparent-main: #ffffffa4;
     &-transparent{
         background-color: $graytransparent-main !important;
     }
+
+    &-alert{
+        display: flex;
+    }
+
+    &-content{
+        width: 100%;
+        display: flex;
+    }
+}
+
+.alert-element{
+    text-align: center;
+    color: white;
+
+    a{
+        color: rgb(145, 193, 255);
+    }
+
 }
